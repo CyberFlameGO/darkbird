@@ -14,7 +14,7 @@ repository = "https://github.com/Rustixir/darkbird"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-tokio          = { version = "1.17.0", features = ["rt-multi-thread", "time", "macros", "sync"]} 
+tokio          = { version = "1.20.4", features = ["rt-multi-thread", "time", "macros", "sync"]} 
 scylla         = "0.4.7"
 tokio-postgres = "0.7.6"
 simple_wal     = "0.3.0"
